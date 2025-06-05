@@ -1,0 +1,27 @@
+name: flutter_ecommerce
+description: A Flutter e-commerce app with authentication and static product data.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.0
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+  carousel_slider: ^5.0.0
+  google_fonts: ^6.2.1  # Added for modern typography
+  animate_do: ^3.3.4   # Added for animations
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
